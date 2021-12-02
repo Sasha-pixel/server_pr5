@@ -44,6 +44,11 @@ public class MainController {
     @Autowired
     private PDFFileRepository pdfFileRepository;
 
+    @GetMapping("/fix")
+    public String fix(){
+        return "fix";
+    }
+
     /**
      * Возврат домашней страницы
      *

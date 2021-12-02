@@ -3,6 +3,7 @@ com\example\demo\Validators\AuthorizationValidator.class
 com\example\demo\PR4\SwaggerConfig.class
 com\example\demo\Model\User.class
 com\example\demo\PR4\TruckRestService.class
+com\example\demo\PR4\Fixture\FixtureController.class
 com\example\demo\Validators\OrderValidator.class
 com\example\demo\Services\TruckService.class
 com\example\demo\Model\Employee.class
@@ -32,6 +33,7 @@ com\example\demo\Configuration\CustomFilter$1.class
 com\example\demo\Controllers\EndController.class
 com\example\demo\Roles\Role.class
 com\example\demo\Controllers\OrderController.class
+com\example\demo\PR4\Fixture\FixturePerson.class
 com\example\demo\Services\AuthorizationService.class
 com\example\demo\Configuration\MvcConfig.class
 com\example\demo\Configuration\CustomFilter$2.class

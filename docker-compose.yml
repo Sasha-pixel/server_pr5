@@ -7,6 +7,9 @@ services:
     build: ./
     ports:
       - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresqldb:5432/postgres
+      - SPRING_REDIS_ADDRESS=redis
     depends_on:
       - postgresqldb
 
@@ -18,8 +21,8 @@ services:
       - POSTGRES_PASSWORD=admin
       - POSTGRES_USER=admin
       - POSTGRES_DB=postgres
-#    volumes:
-#      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  #    volumes:
+  #      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
   nginx:
     image: nginx:1.11
@@ -33,4 +36,4 @@ services:
   redis:
     image: redis
     ports:
-    - "6379:6379"
+      - "6379:6379"
