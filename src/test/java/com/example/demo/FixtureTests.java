@@ -1,7 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.PR4.Fixture.FixtureController;
-import com.example.demo.PR4.Fixture.FixturePerson;
+import com.example.demo.uilevel.controllerlayer.FixtureController;
+import com.example.demo.businesslevel.domainlayer.FixturePerson;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
